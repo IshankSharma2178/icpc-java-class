@@ -10,7 +10,6 @@ class Solution {
         for (int i = 0; i < n; i++) {
             q.offer(i);
         }
-
         while (!q.isEmpty()) {
             ans[q.poll()] = deck[idx++];
             if (!q.isEmpty()) {
